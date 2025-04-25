@@ -7,10 +7,10 @@ class ProxyMiddleware(object):
         return cls(crawler.settings)
 
     def __init__(self, settings):
-        self.user = settings.get('SMARTPROXY_USER')
-        self.password = settings.get('SMARTPROXY_PASSWORD')
-        self.endpoint = settings.get('SMARTPROXY_ENDPOINT')
-        self.port = settings.get('SMARTPROXY_PORT')
+        self.user = settings.get('DECODO_USER')
+        self.password = settings.get('DECODO_PASSWORD')
+        self.endpoint = settings.get('DECODO_ENDPOINT')
+        self.port = settings.get('DECODO_PORT')
 
     def process_request(self, request, spider):
 
