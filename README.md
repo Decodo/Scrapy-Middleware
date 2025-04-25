@@ -30,7 +30,7 @@ When project directory is setup, you can deploy our middleware:
 
 1. Open Terminal window.
 2. Navigate to the main directory of your project folder using `cd yourprojectname`
-3. Download our proxy middleware using the following command: `curl https://raw.githubusercontent.com/Smartproxy/Scrapy-Middleware/master/smartproxy_auth.py > smartproxy_auth.py`
+3. Download our proxy middleware using the following command: `curl https://raw.githubusercontent.com/Smartproxy/Scrapy-Middleware/master/decodo_auth.py > decodo_auth.py`
 4. You should now see your project folder populated with *smartproxy_auth.py* file.
 <img src="https://file2.api.drift.com/drift-prod-file-uploads/94bb%2F94bb73fc522c281e170a6cc81a077ab5/3.png?mimeType=image%2Fpng">
 
